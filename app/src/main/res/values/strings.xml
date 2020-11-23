@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Personal data</string>
+    <string name="lblNombre">Name:</string>
+    <string name="txtNombre">Insert your name</string>
+    <string name="errorNombre"><font fgcolor='#FFFF3B30'>The name is missing</font></string>
+
+    <string name="lblApellidos">Surname:</string>
+    <string name="txtApellidos">Insert your surname</string>
+    <string name="errorApellidos"><font fgcolor='#FFFF3B30'>The surname is missing</font></string>
+
+    <string name="lblEdad">Age:</string>
+    <string name="txtEdad">Insert your age</string>
+    <string name="errorEdad"><font fgcolor='#FFFF3B30'>The age is missing</font></string>
+    <string name="mayorDeEdadNo">is not old enough</string>
+    <string name="mayorDeEdadSi">is old enough</string>
+
+    <string name="lblGenero">Gender:</string>
+    <string name="rdHombre">Men</string>
+    <string name="rdMujer">Women</string>
+
+    <string name="switchHijos">Do you have kids?    No / Yes</string>
+    <string name="btnEnviar">Send</string>
+    <string name="btnLimpiar">Clean</string>
+    <string name="hijosNo">Do not have kids</string>
+    <string name="hijosSi">Do have kids</string>
+
+    <string name="btnTraducir">Language</string>
+
+    /* Aquí tenemos el contenido del spinner del estado civil */
+    <string name="lblEstadoCivil">" Marital status:"</string>
+    <string-array name="despegableEstadoCivil">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widower</item>
+    </string-array>
+
+    <string name="str_en" >English</string>
+    <string name="str_es" >Spanish</string>
+    <string-array name="languages" >
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+    </string-array>
+</resources>

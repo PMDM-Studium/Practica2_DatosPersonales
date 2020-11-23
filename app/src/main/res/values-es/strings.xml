@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="lblNombre">Nombre:</string>
+    <string name="txtNombre">Escribe tu nombre</string>
+    <string name="txtApellidos">Escribe tus apellidos</string>
+    <string name="lblApellidos">Apellidos:</string>
+    <string name="errorNombre"><font fgcolor="#FFFF3B30">Falta el nombre</font></string>
+    <string name="errorApellidos"><font fgcolor="#FFFF3B30">Faltan los apellidos</font></string>
+    <string name="lblEdad">Edad:</string>
+    <string name="txtEdad">Escribe tu edad</string>
+    <string name="errorEdad"><font fgcolor="#FFFF3B30">Falta la edad</font></string>
+    <string name="mayorDeEdadNo">es menor de edad</string>
+    <string name="mayorDeEdadSi">es mayor de edad</string>
+    <string name="lblGenero">Género:</string>
+    <string name="rdHombre">Hombre</string>
+    <string name="rdMujer">Mujer</string>
+    <string name="switchHijos">¿Tienes hijos? No / Si</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="hijosNo">no tiene hijos</string>
+    <string name="hijosSi">tiene hijos</string>
+    <string name="lblEstadoCivil">Estado Civil:</string>
+    /* Aquí tenemos el contenido del spinner del estado civil */
+    <string-array name="despegableEstadoCivil">
+        <item>Soltero/a</item>
+        <item>Casado/a</item>
+        <item>Divorciado/a</item>
+        <item>Viudo/a</item>
+    </string-array>
+    <string name="btnTraducir">Idioma</string>
+    <string name="str_en" >Ingles</string>
+    <string name="str_es" >Español</string>
+    <string-array name="languages" >
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+    </string-array>
+</resources>
