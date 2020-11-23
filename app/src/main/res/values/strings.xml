@@ -41,4 +41,5 @@
         <item>@string/str_en</item>
         <item>@string/str_es</item>
     </string-array>
+    <string name="errorToast">You must fill all the fields</string>
 </resources>

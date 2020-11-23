@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                     String mayorDeEdad = null;
                     String hijos;
                     String sexo;
-                    Toast toast = Toast.makeText(getApplicationContext(), "Debes rellenar todos los campos", Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(getApplicationContext(), R.string.errorToast, Toast.LENGTH_SHORT);
 
                     if (nombre.isEmpty()) {
                         txtNombre.setHintTextColor(getResources().getColor(R.color.design_default_color_error));

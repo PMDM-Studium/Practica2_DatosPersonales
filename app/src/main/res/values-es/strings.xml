@@ -35,4 +35,5 @@
         <item>@string/str_en</item>
         <item>@string/str_es</item>
     </string-array>
+    <string name="errorToast">Debes rellenar todos los campos</string>
 </resources>
