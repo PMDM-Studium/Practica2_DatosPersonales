@@ -125,8 +125,6 @@ public class MainActivity extends AppCompatActivity {
                         txtApellidos.setHint(getResources().getString(R.string.txtApellidos));;
                         txtEdad.setHintTextColor(getResources().getColor(R.color.black));
                         txtEdad.setHint(getResources().getString(R.string.errorEdad));;
-                        String nombreC = nombre.substring(0, 1).toUpperCase() + nombre.substring(1).toLowerCase();
-                        String apellidosC = apellidos.substring(0, 1).toUpperCase() + apellidos.substring(1).toLowerCase();
                         String spinnerEstadoCivil = spinner.getSelectedItem().toString();
                         //Hombre o Mujer
                         if (rdHombre.isChecked()){
@@ -151,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             hijos = getResources().getString(R.string.hijosNo);
                         }
-                        resultado.setText(apellidosC + ", " + nombreC + ", " + mayorDeEdad + ", " + sexo.toLowerCase() + " " + spinnerEstadoCivil.toLowerCase() + ", " + hijos.toLowerCase());
+                        resultado.setText(apellidos + ", " + nombre + ", " + mayorDeEdad + ", " + sexo.toLowerCase() + " " + spinnerEstadoCivil.toLowerCase() + ", " + hijos.toLowerCase());
                     }
 
                 }
