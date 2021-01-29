@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Personal data</string>
-    <string name="lblNombre">Name:</string>
-    <string name="txtNombre">Insert your name</string>
-    <string name="errorNombre"><font fgcolor='#FFFF3B30'>The name is missing</font></string>
+    <string name="lblNombre" translatable="false">Name:</string>
+    <string name="txtNombre" translatable="false">Insert your name</string>
+    <string name="errorNombre" translatable="false"><font fgcolor='#FFFF3B30'>The name is missing</font></string>
 
     <string name="lblApellidos">Surname:</string>
     <string name="txtApellidos">Insert your surname</string>
